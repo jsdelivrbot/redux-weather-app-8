@@ -20,6 +20,11 @@ class SearchBar extends Component {
         this.setState({ term: e.target.value });
     }
 
+    /**
+     * Fetch current weather for dashboard and clear search bar on form submit.
+     * 
+     * @param {Object} e ~ (event) Form submission event.
+     */
     onFormSubmit(e) {
         e.preventDefault();
 
