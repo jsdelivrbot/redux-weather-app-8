@@ -6,3 +6,5 @@ npm-debug.log
 *.iml
 /.idea
 .eslintrc
+api-keys.js
+/.api-keys.js
